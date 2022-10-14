@@ -12,6 +12,4 @@ refreshBtn.addEventListener('click', displayData);
 submitBtn.addEventListener('click', (e) => {
   e.preventDefault();
   addData();
-
 });
-

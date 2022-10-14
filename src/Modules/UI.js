@@ -1,6 +1,6 @@
 import { getData, postData } from './api-hit';
 
-const displayData= async () => {
+const displayData = async () => {
   const scores = await getData();
   const resultsBox = document.querySelector('.results');
   const fragment = new DocumentFragment();
