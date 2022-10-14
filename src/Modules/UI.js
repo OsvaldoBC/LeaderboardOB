@@ -1,4 +1,4 @@
-import { getData, postData } from './api-hit';
+import { getData, postData } from './api-hit.js';
 
 const displayData = async () => {
   const scores = await getData();
@@ -27,7 +27,7 @@ const addData = async () => {
   await postData(user, score);
   inputs[0].value = '';
   inputs[1].value = '';
-  displayScores();
+  displayData();
 };
 
 export { displayData, addData };
