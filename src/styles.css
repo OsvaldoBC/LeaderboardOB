@@ -17,17 +17,30 @@ li {
 }
 
 body {
-  background-color: #e8ffff;
+  background-color: #7a7a7a;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
 }
 
 h1 {
   padding: 20px;
 }
 
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-game {
+  text-align: center;
+}
+
 .container-leaderboard {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 40px;
+  width: 60%;
+  margin: auto;
 }
 
 .recent-scores {
@@ -39,9 +52,12 @@ h1 {
   justify-content: space-between;
 }
 
-.list {
+.results {
   border: solid 1px;
   margin-top: 10px;
+  background-color: #9c9c9c;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .add-form {
